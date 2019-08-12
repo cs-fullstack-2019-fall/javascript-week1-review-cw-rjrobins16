@@ -14,19 +14,19 @@ while (counter !== 'q'){
     {
         var CountDownto = parseInt(prompt("Enter a number to count down to."));
 
-        for (x = 0; CountDownto >= x; CountDownto = CountDownto--)
+        for (x = 0; CountDownto < x; CountDownto = CountDownto--)
         {
 
-        console.log(CountDownto)}
+        console.log(x)}
     }
 
     else if (counterInt===2){
         var y=0;
         var CountupTo= parseInt(prompt("Enter a number to count up to."));
-        while (y>=CountupTo)
+        while (y<CountupTo)
         {
-            console.log(CountupTo);
-            CountupTo=CountupTo+1;
+            console.log(y);
+            y=CountupTo+1;
         }
 
     }
